@@ -23,8 +23,8 @@
     },
     "homepage": "https://github.com/wileymarques/node-oauth-example#readme",
     "dependencies": {
-        "axios": "^0.18.0",
-        "express": "^4.17.0"
+        "express": "^4.17.0",
+        "node-fetch": "^2.6.0"
     },
     "devDependencies": {
         "eslint": "^5.16.0",
