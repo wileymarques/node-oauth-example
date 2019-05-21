@@ -28,8 +28,6 @@ app.get('/oauth/redirect', (req, res) => {
         .then(response => {
             // Once we get the response, extract the access token from
             // the response body
-            // const responseJson = response.json();
-            console.log('response', response);
             const accessToken = response.access_token;
             // redirect the user to the welcome page, along with the access token
             res.redirect(`/welcome.html?access_token=${accessToken}`);
