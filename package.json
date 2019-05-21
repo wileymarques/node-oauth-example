@@ -1,0 +1,24 @@
+{
+  "name": "oauth-example",
+  "version": "1.0.0",
+  "description": "OAuth2 implementation using Node+Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wileymarques/node-oauth-example.git"
+  },
+  "keywords": [
+    "oauth2",
+    "node",
+    "express"
+  ],
+  "author": "Wiley Marques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wileymarques/node-oauth-example/issues"
+  },
+  "homepage": "https://github.com/wileymarques/node-oauth-example#readme"
+}
